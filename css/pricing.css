@@ -1,0 +1,98 @@
+.pricing-title{
+    margin-top: 80px;
+
+}
+.pricing-line{
+    width: 64px;
+    border-bottom: 2px solid #E72424;
+    margin: auto;
+    margin-top: 34px;
+}
+.pricing-description_text{
+    font-size: 14px;
+    color: #86878b;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 34px;
+
+}
+.pricing-table{
+    margin: auto;
+    margin-top: 77px;
+    display: flex;
+    margin: ;
+    width: 1175px;
+    height: 469px;
+    
+}
+
+.name{
+    width: 340px;
+    height: 50px;
+    background-color: #333333;
+   text-align: center;
+}
+.name-text{
+   margin: auto; 
+   width: 54px;
+   height: 27px;
+   font-weight: 700;
+   color: #ffffff;
+   margin-top: px;
+   background-color:  #333333;
+}
+.price{
+    width: 340px;
+    height: 100px;
+    background-color: #333333;
+    margin-top: 1px;
+    text-align: center;  
+}
+.price-text{
+    margin: auto;
+    width: 61px;
+    height: 41px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color:  #333333;
+}
+.life{
+    width: 340px;
+    height: 50px;
+    background-color: #333333;
+    margin-top: 1px;
+    text-align: center;  
+}
+.life-text{
+    margin: auto;
+    width: 78px;
+    height: 19px;
+    font-weight: 200;
+    color: #ffffff ;
+    background-color:  #333333;
+}
+.space{
+    width: 340px;
+    height: 40px;
+    background-color: #333333;
+    margin-top: 4px;
+    text-align: center;
+    background-color: #ffffff;
+    
+}
+.space-text{
+    margin: auto;
+    width: 78px;
+    height: 19px;
+    font-weight: 400;
+    font-size: 14px;
+     color: #86878B;
+     ;
+    background-color:#ffffff;
+}
+.pricing-table1{
+    margin-right: 78px;
+}
+.pricing-table2{
+    margin-right: 78px;
+}
