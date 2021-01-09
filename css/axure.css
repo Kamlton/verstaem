@@ -1,0 +1,67 @@
+.axure {
+    width: 100%;
+    /*background: url(../css/images/background/background-axure.png);*/
+    
+}
+.axure-body{
+    background: url(../css/images/background/background-axure.png);
+    background-size:cover;
+}
+.axure-title {
+    margin-top:56px;
+    font-family: Raleway;
+    color: #ffffff;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.axure-line {
+    width: 64px;
+    border-bottom: 2px solid #e72424;
+    margin: auto;
+    margin-top: 34px;
+}
+.axure-description__text {
+    font-size: 14px;
+    color: #86878b;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 34px;
+    margin-bottom: 57px;
+    font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+
+  }
+  .Download{
+      margin-bottom: 38px;
+      margin-top: 57px;
+      text-align: center;
+      margin: auto;
+      width: 135px;
+      height: 42px;
+      color: #ffffff;
+      border: 1px solid #b9b9b9;
+      margin-bottom: 30px;
+      padding-top: 11px;
+      font-family: Open Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+  }
+  .tap{
+      color: #ffffff;
+      text-decoration: none
+  }

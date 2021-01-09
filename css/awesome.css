@@ -1,0 +1,86 @@
+.awesome {
+    width: 100%;
+    background-color:#ffffff;
+  }
+  .awesome-title {
+    padding-top: 80px;
+    font-family: Raleway;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: left;
+
+  }
+  .awesome-line {
+    width: 64px;
+    border-bottom: 2px solid #e72424;
+    margin: auto;
+    margin-top: 34px;
+  }
+  .awesome-description__text {
+    font-size: 14px;
+    color: #86878b;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 34px;
+    font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+  }
+  .awesome-card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 69px;
+    padding-bottom: 80px;
+  }
+  .awesome-card__item {
+    width: 350px;
+  }
+  .awesome-card__image {
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #e72424;
+    border-radius: 50%;
+    margin-bottom: 30px;
+  }
+  .awesome-card__pic_lamp {
+    display: block;
+    margin: auto;
+    margin-top: 17px;
+    width: 23px;
+  }
+.awesome-card__pic_keyboard{
+    display: block;
+    margin: auto;
+    margin-top: 17px;
+    width: 37px;
+}
+  .awesome-card__title {
+    margin-bottom: 16px;
+    text-align: center;
+    font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0em;
+
+
+  }
+  .awesome-card__text {
+    text-align: center;
+    font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+
+  }
