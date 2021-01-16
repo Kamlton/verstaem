@@ -34,14 +34,20 @@ letter-spacing: 0em;
   }
   .awesome-card {
     display: flex;
-    justify-content: space-between;
-    margin-top: 69px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 69px;
     padding-bottom: 80px;
+    margin: 0 -15px;
   }
   .awesome-card__item {
     width: 350px;
+    margin: 0 15px;
   }
   .awesome-card__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: auto;
     width: 70px;
     height: 70px;
@@ -52,13 +58,13 @@ letter-spacing: 0em;
   .awesome-card__pic_lamp {
     display: block;
     margin: auto;
-    margin-top: 17px;
+   
     width: 23px;
   }
 .awesome-card__pic_keyboard{
     display: block;
     margin: auto;
-    margin-top: 17px;
+    
     width: 37px;
 }
   .awesome-card__title {

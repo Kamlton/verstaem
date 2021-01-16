@@ -38,17 +38,21 @@ letter-spacing: 0em;
 }
 .pricing-table_body{
     display: flex;
-    /*justify-content: space-around;*/
+    justify-content: space-around;
+    flex-wrap: wrap ;
+    margin: 0 -15px;
     
 }
 .pricing-table{
     margin-top: 77px;
-    display: flex;
-    width: 1020px;
+    
+    
+    
 }
 
 .pricing-table-list-name{
-    width: 340px;
+    
+    
     background-color: #333333;
    text-align: center;
    padding-top: 15px;
@@ -63,6 +67,7 @@ text-align: center;
 
 }
 .pricing-table-list-name-text{
+    
    margin: auto; 
    width: 54px;
    font-weight: 700;
@@ -71,7 +76,8 @@ text-align: center;
    background-color:  #333333;
 }
 .pricing-table-list-price{
-    width: 340px;
+    
+   
     background-color: #333333;
     margin-top: 1px;
     text-align: center; 
@@ -87,6 +93,7 @@ text-align: center;
 
 }
 .pricing-table-list-price-text{
+    
     margin: auto;
     width: 61px;
     font-weight: 400;
@@ -94,7 +101,8 @@ text-align: center;
     background-color:  #333333;
 }
 .pricing-table-list-life{
-    width: 340px;
+    
+    
     background-color: #333333;
     margin-top: 1px;
     text-align: center; 
@@ -110,6 +118,7 @@ text-align: center;
 
 }
 .pricing-table-list-life-text{
+    
     margin: auto;
     width: 78px;
     font-weight: 200;
@@ -117,7 +126,8 @@ text-align: center;
     background-color:  #333333;
 }
 .pricing-table-list-space{
-    width: 340px;
+    
+    
     background-color: #333333;
     margin-top: 4px;
     text-align: center;
@@ -135,15 +145,17 @@ text-align: center;
     
 }
 .pricing-table-list-space-text{
+    
     margin: auto;
     width: 78px;
     font-weight: 400;
     font-size: 14px;
-     color: #86878B;
-     ;
+    color: #86878B;
     background-color:#ffffff;
 }
 .pricing-table-item{
-    margin-right: 78px;
+    width: 340px;
+    /*margin-right: 78px;*/
+    margin: 0 15px;
     
 }
