@@ -1,6 +1,6 @@
 .axure {
     width: 100%;
-    background: url(../css/images/background/background-axure.png);
+    background: url(../images/background/background-axure.png);
     background-size:cover;
     padding-bottom: 38px;
     background-repeat: no-repeat;
@@ -11,6 +11,8 @@
     
 }
 .axure-title {
+    display: flex;
+    flex-direction: column;
     padding-top: 56px;
     font-family: Raleway;
     color: #ffffff;
@@ -22,12 +24,14 @@ letter-spacing: 0em;
 text-align: center;
 
 }
-.axure-line {
+.axure-title:after{
+    content: "";
     width: 64px;
     border-bottom: 2px solid #e72424;
     margin: auto;
     margin-top: 34px;
 }
+
 .axure-description__text {
     font-size: 14px;
     color: #86878b;

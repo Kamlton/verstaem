@@ -1,0 +1,62 @@
+
+.menu{
+   
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #000000;
+    
+}
+.menu-navigation{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky
+}
+.menu-navigation-logo{
+    display: flex;
+    font-family: Raleway;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+color: #ffffff;
+
+
+}
+.menu-navigation-buttons{
+    font-family: Open Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: right;
+display: flex;
+flex-direction: row;
+
+
+}
+.menu-navigation-buttons-feautures{
+    margin-left: 48px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.menu-navigation-buttons-about{
+    margin-left: 48px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.menu-navigation-buttons-pricing{
+    margin-left: 48px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.menu-navigation-buttons-reviews{
+    margin-left: 48px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.menu-navigation-buttons-contact{
+    margin-left: 48px;
+    color: rgba(255, 255, 255, 0.7);
+}

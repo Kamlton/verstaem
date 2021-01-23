@@ -4,6 +4,8 @@
     padding-bottom: 78px;
 }
 .pricing-title{
+    display: flex;
+    flex-direction: column;
     font-family: Raleway;
     font-size: 36px;
     font-style: normal;
@@ -14,12 +16,14 @@
     
 
 }
-.pricing-line{
+.pricing-title:after{
+    content: "";
     width: 64px;
     border-bottom: 2px solid #E72424;
     margin: auto;
     margin-top: 34px;
 }
+
 .pricing-description_text{
     font-size: 14px;
     color: #86878b;
@@ -66,6 +70,7 @@ letter-spacing: 0em;
 text-align: center;
 
 }
+
 .pricing-table-list-name-text{
     
    margin: auto; 
@@ -74,6 +79,9 @@ text-align: center;
    color: #ffffff;
    margin-top: px;
    background-color:  #333333;
+}
+.pricing-table-list-name:hover{
+    cursor: pointer;
 }
 .pricing-table-list-price{
     
@@ -117,6 +125,7 @@ letter-spacing: 0em;
 text-align: center;
 
 }
+
 .pricing-table-list-life-text{
     
     margin: auto;

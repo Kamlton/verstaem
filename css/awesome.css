@@ -3,6 +3,8 @@
     background-color:#ffffff;
   }
   .awesome-title {
+    display: flex;
+    flex-direction: column;
     padding-top: 80px;
     font-family: Raleway;
 font-size: 36px;
@@ -13,12 +15,14 @@ letter-spacing: 0em;
 text-align: left;
 
   }
-  .awesome-line {
+  .awesome-title::after{
+    content: "";
     width: 64px;
     border-bottom: 2px solid #e72424;
     margin: auto;
     margin-top: 34px;
   }
+  
   .awesome-description__text {
     font-size: 14px;
     color: #86878b;
