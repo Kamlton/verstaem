@@ -1,0 +1,114 @@
+.contact{
+    width: 100%;
+    background-color:#ffffff;
+}
+.contact-title{
+    display: flex;
+    flex-direction: column;
+    padding-top: 155px;
+    font-family: Raleway;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.contact-title:after{
+    content: "";
+    width: 64px;
+    border-bottom: 2px solid #e72424;
+    margin: auto;
+    margin-top: 34px;
+    margin-bottom: 34px;
+  }
+  .contact-description__text {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #86878b;
+    margin-bottom: 91px;
+   
+
+  }
+ .name-text{ font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+color:  #BDBDBD;
+margin-bottom: 28px;
+ }
+.input-text{
+    border: 0px;
+    border-bottom: 1px solid #808080;
+    padding-top: 5px;
+}
+.input-text:focus{
+    outline: none;
+}
+.Email-text{
+    font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+color:  #BDBDBD;
+margin-bottom: 28px;
+margin-top: 32px;
+}
+.Password-text{font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+color:  #BDBDBD;
+margin-bottom: 42px;
+margin-top: 32px;
+}
+.Message-text{
+    font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+color:  #BDBDBD;
+margin-bottom: 216px;
+margin-top: 32px;
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.Download-contact{
+    margin-bottom: 38px;
+      margin-top: 57px;
+      text-align: center;
+      margin: auto;
+      width: 135px;
+      height: 42px;
+      color: #ffffff;
+      background-color: #EC7979;
+      
+      border: 1px solid #b9b9b9;
+      padding-bottom: 11px;
+      padding-top: 11px;
+      font-family: Open Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+margin-bottom: 44px;
+}

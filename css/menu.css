@@ -1,11 +1,11 @@
 
 .menu{
-   
+   position: fixed;
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #000000;
-    
+    z-index: 10;
 }
 .menu-navigation{
     position: fixed;
@@ -14,6 +14,8 @@
     align-items: center;
     position: sticky
 }
+
+
 .menu-navigation-logo{
     display: flex;
     font-family: Raleway;
@@ -25,6 +27,18 @@ letter-spacing: 0em;
 text-align: left;
 color: #ffffff;
 
+
+}
+.menu-navigation-logo::after{
+    content: "it";
+    color: palevioletred;
+    font-family: Raleway;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
 
 }
 .menu-navigation-buttons{
@@ -39,6 +53,9 @@ display: flex;
 flex-direction: row;
 
 
+}
+..menu-navigation-buttons:first-child{
+    margin-left: 0px;
 }
 .menu-navigation-buttons-feautures{
     margin-left: 48px;

@@ -6,6 +6,10 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.axure::after{
+ content: " ";
+ background-color: rgba(0, 0, 0, 0.55);   
+}
 .axure-body{
     /*background: url(../css/images/background/background-axure.png);*/
     
@@ -48,7 +52,7 @@ letter-spacing: 0em;
 text-align: center;
 
   }
-  .Download{
+  .Download-axure{
       margin-bottom: 38px;
       margin-top: 57px;
       text-align: center;
