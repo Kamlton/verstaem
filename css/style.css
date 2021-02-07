@@ -17,11 +17,13 @@
     max-width: 1170px;
     margin: auto;
     padding: 0 15px;
+    position: relative;
+    z-index: 1;
 }
 .title{
     font-size: 36px;
     font-weight: 400;
-    color: #212121;
+    
     text-align: center;
 }
 li{

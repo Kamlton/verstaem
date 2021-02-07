@@ -17,7 +17,7 @@
 
 
 .menu-navigation-logo{
-    display: flex;
+    
     font-family: Raleway;
 font-size: 30px;
 font-style: normal;
@@ -41,7 +41,7 @@ letter-spacing: 0em;
 text-align: left;
 
 }
-.menu-navigation-buttons{
+.menu-navigation-list{
     font-family: Open Sans;
 font-size: 15px;
 font-style: normal;
@@ -51,29 +51,38 @@ letter-spacing: 0em;
 text-align: right;
 display: flex;
 flex-direction: row;
+text-decoration: none;
 
-
 }
-..menu-navigation-buttons:first-child{
-    margin-left: 0px;
+.a-menu-list{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
 }
-.menu-navigation-buttons-feautures{
+.a-menu-list:hover{
+    border: 3px solid  rgb(59, 125, 168);
+    border: 0px;
+    border-bottom: 3px solid rgb(59, 125, 168) ;
+    border-radius: 1%;
+    padding: 20px;
+    
+}
+.menu-navigation-list-feautures{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+.menu-navigation-list-about{
     margin-left: 48px;
     color: rgba(255, 255, 255, 0.7);
 }
-.menu-navigation-buttons-about{
+.menu-navigation-list-pricing{
     margin-left: 48px;
     color: rgba(255, 255, 255, 0.7);
 }
-.menu-navigation-buttons-pricing{
+.menu-navigation-list-reviews{
     margin-left: 48px;
     color: rgba(255, 255, 255, 0.7);
 }
-.menu-navigation-buttons-reviews{
-    margin-left: 48px;
-    color: rgba(255, 255, 255, 0.7);
-}
-.menu-navigation-buttons-contact{
+.menu-navigation-list-contact{
     margin-left: 48px;
     color: rgba(255, 255, 255, 0.7);
 }

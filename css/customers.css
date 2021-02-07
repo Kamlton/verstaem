@@ -73,7 +73,7 @@ letter-spacing: 0em;
    
     flex:1 1 auto;
    
-    padding-top: 9px;
+    padding: 9px;
     text-align: center;
     font-family: Open Sans;
 font-size: 14px;
@@ -94,7 +94,7 @@ width: 298px;
    
   flex:1 1 auto;
  
-  padding-top: 9px;
+  padding: 9px;
   text-align: center;
   font-family: Open Sans;
 font-size: 14px;
@@ -115,7 +115,7 @@ width: 298px;
    
   flex:1 1 auto;
  
-  padding-top: 9px;
+  padding: 9px;
   text-align: center;
   font-family: Open Sans;
 font-size: 14px;
