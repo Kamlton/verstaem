@@ -1,0 +1,8 @@
+.taps{
+    width: 100%;
+    background-color:#ffffff;
+}
+.first-tap{
+    border: 1px solid #e72424;
+    border-radius: 50%;
+}

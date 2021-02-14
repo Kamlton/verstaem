@@ -6,6 +6,7 @@
     padding-bottom: 20px;
     background-color: #000000;
     z-index: 10;
+    margin-bottom: 60px;
 }
 .menu-navigation{
     position: fixed;
