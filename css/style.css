@@ -23,6 +23,7 @@
     padding: 0 15px;
     position: relative;
     z-index: 1;
+    
 }
 .title{
     font-size: 36px;
@@ -33,4 +34,7 @@
 li{
     list-style-type: none; /* Убираем маркеры */
         
+}
+body{
+    /*padding-top: 100px;*/
 }

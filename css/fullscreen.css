@@ -1,5 +1,7 @@
 .fullscreen{
-    
+  
+  
+    padding-top: 110px;
     width: 100%;
     background: url(../images/background/background-1.png);
     background-size:cover;
@@ -7,6 +9,8 @@
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
+    
+   
 }
 h1{
     margin-top: 108px;
@@ -17,7 +21,10 @@ font-weight: 400;
 line-height: 70px;
 letter-spacing: 0em;
 text-align: left;
-margin-bottom: 32px;
+margin-bottom: 50px;
+text-transform:uppercase;
+color:#ffffff;
+
 }
 h1::after{
     content: "it";
@@ -32,6 +39,7 @@ color: palevioletred;
 
 }
  .fullscreen-description {
+   display: flex;
      font-family: Raleway;
 font-size: 36px;
 font-style: normal;
@@ -40,18 +48,19 @@ line-height: 42px;
 letter-spacing: 0em;
 text-align: left;
 margin-bottom: 32px;
+color: #ffffff;
+flex-direction: column;
   }
   .fullscreen-description::after{
     content: "";
+    border: 1px solid #ffffff;
     width: 64px;
-    border-bottom: 2px solid #ffffff;
-    margin: auto;
-    margin-top: 34px;
-    margin-bottom: 32px;
+    margin-top: 39px;
   }
 .fullscreen-description-second{
+  margin-top: 39px;
   font-family: Open Sans;
-font-size: 14px;
+font-size: 22px;
 font-style: normal;
 font-weight: 400;
 line-height: 19px;
@@ -66,5 +75,125 @@ margin-bottom: 182px;
 .fullscreen-dody{
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: space-between;
+    display: flex;
 }
+.fullscreen-tap{
+  font-family: Open Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+color:#ffffff;
+text-align: center;
+border: 1px solid #ffffff;
+width: 135px;
+padding: 11px;
+}
+
+.fullscreen-main{
+  display: flex;
+  justify-content: space-between;
+}
+.fullscreen-tab-title{
+  font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0em;
+}
+.fullscreen-tab{
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  padding: 10px 59px;
+  border-radius: 5%;
+}
+.fullscreen-name-input-first{
+  border: none;
+    border-bottom: 1px solid #bdbdbd;
+    width: 300px; 
+    
+}
+.fullscreen-name-input-first:focus{
+  outline: none;
+}
+.fullscreen-name{
+  margin-top: 50px;
+}
+.fullscreen-name-text{
+  font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #bdbdbd;
+}
+.fullscreen-email-input-second{
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  width: 300px; 
+}
+.fullscreen-email-input-second:focus{
+  outline: none;
+}
+.fullscreen-Email{
+  margin-top: 19px;
+}
+.fullscreen-Email-text{
+  font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #bdbdbd;
+}
+.fullscreen-password-input-third{
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  width: 300px;
+}
+.fullscreen-password-input-third:focus{
+  outline: none;
+}
+.fullscreen-Password{
+  margin-top: 19px;
+}
+.fullscreen-Password-text{
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #bdbdbd;
+}
+.Download-fullscreen{
+  margin-top: 70px;
+  
+  text-align: center;
+  
+}
+.fullscreen-end{
+}
+.fullscreen-tap-end{
+  border: none;
+  font-family: Open Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+background-color: #EC7979;
+}
+.fullscreen-tap-end:focus{
+  outline: none;
+}
+  
