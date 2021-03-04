@@ -1,11 +1,146 @@
 .taps{
     width: 100%;
     background-color:#ffffff;
+  padding: 125px;
+  }
+  .taps-body{
+    display: flex;
+    justify-content: space-between;
+  }
+  .taps-item{
+    display: flex;
+  }
+  .taps-taps{
+    justify-content: left;
+  }
+.first-tap-link{
+  font-family: Open Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: aliceblue;
+
 }
+
 .first-tap{
-    
-    width: 64px;
-    border-bottom: 2px solid #e72424;
-    margin: auto;
-    margin-top: 34px;
+border: 1px solid #333333;
+width: 135px;
+padding: 45px;
+border-radius: 7%;
+margin-bottom: 10px;
+background-color:#333333 ;
 }
+.first-tap:hover{
+  background-color: #ec7979;
+  border: 1px solid #ec7979;
+  width: 135px;
+  padding: 45px;
+  transition: 0.5s linear;
+}
+.second-tap-link{
+  font-family: Open Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: aliceblue;
+}
+.second-tap{
+  border: 1px solid  #333333;
+  
+width: 135px;
+padding: 45px;
+border-radius: 7%;
+margin-bottom: 10px;
+background-color: #333333;
+}
+.second-tap:hover{
+  background-color: #ec7979;
+  border: 1px solid #ec7979;
+  width: 135px;
+  padding: 45px;
+  transition: 0.5s linear;
+}
+.third-tap-link{
+  font-family: Open Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: aliceblue;
+}
+.third-tap{
+  border: 1px solid  #333333;
+  
+  width: 135px;
+  padding: 45px;
+  border-radius: 7%;
+  margin-bottom: 10px;
+  background-color: #333333;
+}
+.third-tap:hover{
+  background-color: #ec7979;
+  border: 1px solid #ec7979;
+  width: 135px;
+  padding: 45px;
+  transition: 0.5s linear;
+}
+.taps-title{
+  font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+margin-bottom: 58px;
+}
+.description-text{
+  font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #86878b;
+}
+.taps-description{
+  margin-left: 88px ;
+  margin-right: 80px;
+}
+.taps-tap{
+  margin-top: 100px;
+}
+.taps-tap{
+
+  font-family: Open Sans;
+font-size: 15px;
+color: aliceblue;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+border: 1px solid #ec7979;
+background-color: #ec7979;
+width: 135px;
+border-radius: 2%;
+padding-top: 11px ;
+padding-bottom: 11px;
+padding-right: 28px;
+padding-left: 28px;
+
+}
+.tap-tap{
+color: aliceblue;
+}
+
+
