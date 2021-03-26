@@ -1,14 +1,17 @@
 .taps{
     width: 100%;
     background-color:#ffffff;
-  padding: 125px;
+  padding-top: 125px;
+  padding-bottom: 125px;
   }
   .taps-body{
     display: flex;
     justify-content: space-between;
+    margin: 0 -15px;
   }
   .taps-item{
     display: flex;
+    margin: 0 15px;
   }
   .taps-taps{
     justify-content: left;
@@ -32,13 +35,14 @@ padding: 45px;
 border-radius: 7%;
 margin-bottom: 10px;
 background-color:#333333 ;
+transition: width 0.5s, height 0.5s, background-color 0.5s, transform 0.5s;
 }
 .first-tap:hover{
   background-color: #ec7979;
   border: 1px solid #ec7979;
   width: 135px;
   padding: 45px;
-  transition: 0.5s linear;
+  
 }
 .second-tap-link{
   font-family: Open Sans;
@@ -52,19 +56,18 @@ color: aliceblue;
 }
 .second-tap{
   border: 1px solid  #333333;
-  
 width: 135px;
 padding: 45px;
 border-radius: 7%;
 margin-bottom: 10px;
 background-color: #333333;
+transition: width 0.5s, height 0.5s, background-color 0.5s, transform 0.5s;
 }
 .second-tap:hover{
   background-color: #ec7979;
   border: 1px solid #ec7979;
   width: 135px;
   padding: 45px;
-  transition: 0.5s linear;
 }
 .third-tap-link{
   font-family: Open Sans;
@@ -78,19 +81,20 @@ color: aliceblue;
 }
 .third-tap{
   border: 1px solid  #333333;
-  
   width: 135px;
   padding: 45px;
   border-radius: 7%;
   margin-bottom: 10px;
   background-color: #333333;
+  transition: width 0.5s, height 0.5s, background-color 0.5s, transform 0.5s;
 }
 .third-tap:hover{
   background-color: #ec7979;
   border: 1px solid #ec7979;
   width: 135px;
   padding: 45px;
-  transition: 0.5s linear;
+  
+  
 }
 .taps-title{
   font-family: Open Sans;
@@ -99,7 +103,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 27px;
 letter-spacing: 0em;
-text-align: center;
+
 margin-bottom: 58px;
 }
 .description-text{
@@ -113,14 +117,13 @@ text-align: left;
 color: #86878b;
 }
 .taps-description{
-  margin-left: 88px ;
-  margin-right: 80px;
+  max-width: 572px;
 }
 .taps-tap{
   margin-top: 100px;
 }
 .taps-tap{
-
+  margin-top: 100px;
   font-family: Open Sans;
 font-size: 15px;
 color: aliceblue;
@@ -141,6 +144,13 @@ padding-left: 28px;
 }
 .tap-tap{
 color: aliceblue;
+}
+.taps-img{
+  width: 320px;
+  height: 366px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
