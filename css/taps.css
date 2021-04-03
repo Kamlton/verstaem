@@ -1,23 +1,27 @@
 .taps{
-    width: 100%;
-    background-color:#ffffff;
-  padding-top: 125px;
-  padding-bottom: 125px;
-  }
-  .taps-body{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 -15px;
-  }
-  .taps-item{
-    display: flex;
-    margin: 0 15px;
-  }
-  .taps-taps{
-    justify-content: left;
-  }
+  width: 100%;
+  background-color:#ffffff;
+padding-top: 125px;
+padding-bottom: 125px;
+}
+.taps-body{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+.taps-info{
+  display: flex;
+  justify-content: space-between;
+}
+.taps-item{
+  display: flex;
+  margin: 0 15px;
+}
+.taps-taps{
+  justify-content: left;
+}
 .first-tap-link{
-  font-family: Open Sans;
+font-family: Open Sans;
 font-size: 15px;
 font-style: normal;
 font-weight: 700;
@@ -38,14 +42,14 @@ background-color:#333333 ;
 transition: width 0.5s, height 0.5s, background-color 0.5s, transform 0.5s;
 }
 .first-tap:hover{
-  background-color: #ec7979;
-  border: 1px solid #ec7979;
-  width: 135px;
-  padding: 45px;
-  
+background-color: #ec7979;
+border: 1px solid #ec7979;
+width: 135px;
+padding: 45px;
+
 }
 .second-tap-link{
-  font-family: Open Sans;
+font-family: Open Sans;
 font-size: 15px;
 font-style: normal;
 font-weight: 700;
@@ -55,7 +59,7 @@ text-align: center;
 color: aliceblue;
 }
 .second-tap{
-  border: 1px solid  #333333;
+border: 1px solid  #333333;
 width: 135px;
 padding: 45px;
 border-radius: 7%;
@@ -64,13 +68,13 @@ background-color: #333333;
 transition: width 0.5s, height 0.5s, background-color 0.5s, transform 0.5s;
 }
 .second-tap:hover{
-  background-color: #ec7979;
-  border: 1px solid #ec7979;
-  width: 135px;
-  padding: 45px;
+background-color: #ec7979;
+border: 1px solid #ec7979;
+width: 135px;
+padding: 45px;
 }
 .third-tap-link{
-  font-family: Open Sans;
+font-family: Open Sans;
 font-size: 15px;
 font-style: normal;
 font-weight: 700;
@@ -80,24 +84,24 @@ text-align: center;
 color: aliceblue;
 }
 .third-tap{
-  border: 1px solid  #333333;
-  width: 135px;
-  padding: 45px;
-  border-radius: 7%;
-  margin-bottom: 10px;
-  background-color: #333333;
-  transition: width 0.5s, height 0.5s, background-color 0.5s, transform 0.5s;
+border: 1px solid  #333333;
+width: 135px;
+padding: 45px;
+border-radius: 7%;
+margin-bottom: 10px;
+background-color: #333333;
+transition: width 0.5s, height 0.5s, background-color 0.5s, transform 0.5s;
 }
 .third-tap:hover{
-  background-color: #ec7979;
-  border: 1px solid #ec7979;
-  width: 135px;
-  padding: 45px;
-  
-  
+background-color: #ec7979;
+border: 1px solid #ec7979;
+width: 135px;
+padding: 45px;
+
+
 }
 .taps-title{
-  font-family: Open Sans;
+font-family: Open Sans;
 font-size: 20px;
 font-style: normal;
 font-weight: 700;
@@ -107,7 +111,7 @@ letter-spacing: 0em;
 margin-bottom: 58px;
 }
 .description-text{
-  font-family: Open Sans;
+font-family: Open Sans;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -117,14 +121,14 @@ text-align: left;
 color: #86878b;
 }
 .taps-description{
-  max-width: 572px;
+max-width: 572px;
 }
 .taps-tap{
-  margin-top: 100px;
+margin-top: 100px;
 }
 .taps-tap{
-  margin-top: 100px;
-  font-family: Open Sans;
+margin-top: 100px;
+font-family: Open Sans;
 font-size: 15px;
 color: aliceblue;
 font-style: normal;
@@ -146,11 +150,10 @@ padding-left: 28px;
 color: aliceblue;
 }
 .taps-img{
-  width: 320px;
-  height: 366px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+width: 320px;
+height: 366px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
-
 

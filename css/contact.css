@@ -17,7 +17,7 @@ text-align: center;
 }
 .contact-title:after{
     content: "";
-    width: 64px;
+    max-width: 64px;
     border-bottom: 2px solid #e72424;
     margin: auto;
     margin-top: 34px;

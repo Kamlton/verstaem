@@ -36,8 +36,32 @@ li{
         
 }
 body{
-    
+    min-width: 1170px;
 }
 a{
     text-decoration: none;
 }
+
+
+@media screen and (max-width:920px){
+    
+    .fullscreen-main{
+        flex-direction: column;
+
+     }
+     .second-information{
+         margin-top: 30px;
+         width: 370px;
+     }
+     .fullscreen-dody{
+         margin: auto;
+     }
+     .taps-body{
+        flex-direction: column;
+     }
+     .taps-img{
+         margin-top: 30px;
+         margin: auto;
+     }
+}
+

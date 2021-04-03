@@ -1,6 +1,5 @@
 .fullscreen{
   
-  
     padding-top: 110px;
     width: 100%;
     background: url(../images/background/background-1.png);
@@ -40,6 +39,7 @@ color: palevioletred;
 }
  .fullscreen-description {
    display: flex;
+   justify-content: space-between;
      font-family: Raleway;
 font-size: 36px;
 font-style: normal;
@@ -54,7 +54,7 @@ flex-direction: column;
   .fullscreen-description::after{
     content: "";
     border: 1px solid #ffffff;
-    width: 64px;
+    max-width: 64px;
     margin-top: 39px;
   }
 .fullscreen-description-second{
@@ -88,7 +88,7 @@ letter-spacing: 0em;
 color:#ffffff;
 text-align: center;
 border: 1px solid #ffffff;
-width: 135px;
+max-width: 135px;
 padding: 11px;
 }
 
@@ -113,7 +113,7 @@ letter-spacing: 0em;
 .fullscreen-name-input-first{
   border: none;
     border-bottom: 1px solid #bdbdbd;
-    width: 300px; 
+    max-width: 300px; 
     
 }
 .fullscreen-name-input-first:focus{
@@ -135,7 +135,7 @@ color: #bdbdbd;
 .fullscreen-email-input-second{
   border: none;
   border-bottom: 1px solid #bdbdbd;
-  width: 300px; 
+  max-width: 300px; 
 }
 .fullscreen-email-input-second:focus{
   outline: none;
@@ -156,7 +156,7 @@ color: #bdbdbd;
 .fullscreen-password-input-third{
   border: none;
   border-bottom: 1px solid #bdbdbd;
-  width: 300px;
+  max-width: 300px;
 }
 .fullscreen-password-input-third:focus{
   outline: none;

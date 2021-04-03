@@ -1,4 +1,4 @@
-/.customers {
+.customers {
     width: 100%;
     background-color:#ffffff;
     display: flex;
@@ -18,7 +18,7 @@ text-align: left;
   }
   .customers-title:after{
     content: "";
-    width: 64px;
+    max-width: 64px;
     border-bottom: 2px solid #e72424;
     margin: auto;
     margin-top: 34px;
@@ -40,10 +40,7 @@ line-height: 19px;
 letter-spacing: 0em;
   }
   .customers-card{
-  
-   
     padding-bottom: 80px;
-    
   }
   
   .customers-card__body{
@@ -60,10 +57,7 @@ letter-spacing: 0em;
     justify-content: space-between;
     flex-direction: column;
     align-items: stretch;
-    
-    /*background-color: #e72424;*/
     margin: 15px;
-    
   }
   
 
@@ -82,7 +76,7 @@ font-weight: 400;
 line-height: 19px;
 letter-spacing: 0em;
 color: #86878b;
-width: 298px;
+max-width: 298px;
     
     border: 1px solid #e2e2e2;
     border-radius: 7px;
@@ -103,7 +97,7 @@ font-weight: 400;
 line-height: 19px;
 letter-spacing: 0em;
 color: #86878b;
-width: 298px;
+max-width: 298px;
   
   border: 1px solid #e2e2e2;
   border-radius: 7px;
@@ -124,7 +118,7 @@ font-weight: 400;
 line-height: 19px;
 letter-spacing: 0em;
 color: #86878b;
-width: 298px;
+max-width: 298px;
   
   border: 1px solid #e2e2e2;
   border-radius: 7px;
